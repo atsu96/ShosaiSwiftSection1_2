@@ -20,7 +20,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func tapGreen(_ sender: Any) {
+    @IBAction func tapNico(_ sender: Any) {
+        view.backgroundColor = UIColor(red: 1.0, green: 0.0, blue: 1.0, alpha:1.0)
+    }
+    
+    @IBAction func tapRin(_ sender: Any) {
+        view.backgroundColor = UIColor.yellow
+    }
+    
+    @IBAction func tapPana(_ sender: Any) {
         view.backgroundColor = UIColor.green
     }
 }
